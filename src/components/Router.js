@@ -7,7 +7,7 @@ import ResumeEditor from './ResumeEditor';
 
 const AppRouter = () => {
   return (
-    <Router>
+    <Router basename="/resume">
       <Routes>
         <Route path="/" element={<Home />} /> 
         <Route path="/login" element={<Login />} />
