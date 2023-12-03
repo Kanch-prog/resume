@@ -1,0 +1,70 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  color: #000000;
+  background-color: white;
+}
+
+.testimonials-carousel {
+  text-align: center;
+  padding-top: 120px;
+  background-color: white;
+  padding-bottom: 100px; 
+  padding-top: 80px;
+  margin: 0 auto;
+  position: relative;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.testimonial {
+    width: 600px;
+    height: 215px;
+    padding: 10px;
+    border: 1px solid #F5F5F5;
+    margin: 50px auto;
+    text-align: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    position: relative;
+  }
+  
+  .author {
+    margin-top: 10px;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .post {
+    display: block;
+    font-style: italic;
+  }
+  
+  .workplace {
+    display: block;
+    font-size: 0.8em;
+    color: #777;
+  }
+
+.arrowRight {
+  position: absolute;
+  left: 300px; 
+  top: 50%;
+  transform: translateY(-50%); 
+}
+.arrowLeft{
+  position: absolute;
+  right: 300px;  
+  top: 50%;
+  transform: translateY(-50%);  
+}
