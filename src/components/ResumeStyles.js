@@ -1,43 +1,42 @@
 import React, { useState } from 'react';
 import './ResumeStyles.css';
 
-// Sample data for resume styles
 const styles = [
   {
     id: 1,
     name: 'Classic',
     description: 'A traditional and professional style.',
-    image: '/styles/classic.png',
+    image: '/resume/styles/classic.png',
   },
   {
     id: 2,
     name: 'Modern',
     description: 'A sleek and contemporary style.',
-    image: '/styles/modern.png',
+    image: '/resume/styles/modern.png',
   },
   {
     id: 3,
     name: 'Exquisite',
     description: 'A sleek and contemporary style.',
-    image: '/styles/exquisite.png',
+    image: '/resume/styles/exquisite.png',
   },
   {
     id: 4,
     name: 'Classic',
     description: 'A traditional and professional style.',
-    image: '/styles/classic.png',
+    image: '/resume/styles/classic.png',
   },
   {
     id: 5,
     name: 'Modern',
     description: 'A sleek and contemporary style.',
-    image: '/styles/modern.png',
+    image: '/resume/styles/modern.png',
   },
   {
     id: 6,
     name: 'Exquisite',
     description: 'A sleek and contemporary style.',
-    image: '/styles/exquisite.png',
+    image: '/resume/styles/exquisite.png',
   },
 ];
 

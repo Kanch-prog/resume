@@ -7,13 +7,13 @@ const Footer = () => {
       <div className="social-icons">
         <p>Follow us</p>
         <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-          <img src="/images/linkedin.png" alt="LinkedIn" />
+          <img src="/resume/images/linkedin.png" alt="LinkedIn" />
         </a>
         <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-          <img src="/images/twitter.png" alt="Twitter" />
+          <img src="/resume/images/twitter.png" alt="Twitter" />
         </a>
         <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
-          <img src="/images/youtube.png" alt="YouTube" />
+          <img src="/resume/images/youtube.png" alt="YouTube" />
         </a>
       </div>
       <hr className="separator" />

@@ -7,7 +7,7 @@ const Message = () => {
     <div className="message-section">
       <img
         className="background-image"
-        src="/images/background.jpg"
+        src="/resume/images/background.jpg"
         alt="Background"
       />
       <div className="background-overlay"></div>

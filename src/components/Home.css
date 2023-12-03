@@ -123,4 +123,14 @@ body, h1, h2, h3, p, ul, li {
     width: 50px;
 
   }
+  .message-section {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+  }
   
+  .footer {
+    position: relative;
+    z-index: 1;
+   
+  }

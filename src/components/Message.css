@@ -1,18 +1,7 @@
-body, h1, h2, h3, p, ul, li {
-  margin: 0;
-  padding: 0;
-}
-
-/* Global Styles */
-body {
-  font-family: 'Space Grotesk', sans-serif;
-  color: #000000;
-  background-color: white;
-}
-
 .message-section {
   position: relative;
   text-align: center;
+  
 }
 
 .background-image {
