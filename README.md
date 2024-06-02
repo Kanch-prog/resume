@@ -1,4 +1,44 @@
-Live Site: https://kanch-prog.github.io/resume/
+# Resume Builder Web Application
+
+## Overview
+This web application allows users to create and customize professional resumes online. Users can input their resume details, choose from different resume styles, and preview and download their resumes in PDF format.
+
+## Features
+- **Resume Editor:** Users can input their resume details such as name, position, address, education, skills, etc., using a user-friendly form.
+- **Resume Styles:** Users can choose from different resume styles (Classic, Creative, Modern) to customize the look and feel of their resumes.
+- **Resume Preview:** Provides a preview of the resume based on the selected style and entered details, allowing users to see how their resume will look before downloading.
+- **Download Resume:** Users can download their resumes as PDF files with a single click.
+- **Login:** Includes a login page for users to access their account and manage their resumes.
+
+## Technologies Used
+- **Frontend:** React.js
+- **Styling:** CSS
+- **Routing:** React Router
+- **PDF Generation:** jsPDF
+
+## Installation
+1. **Clone the repository:** `git clone <repository-url>`
+2. **Install dependencies:** `npm install`
+3. **Run the development server:** `npm start`
+4. **Access the application:** Open your web browser and go to `http://localhost:3000`
+
+## Project Structure
+- **`src/components/`**: Contains React components for different sections of the application (Home, Login, ResumeEditor, ResumeStyles, ProfessionalResumePreviews).
+- **`src/AppRouter.js`**: Defines the routing configuration using React Router.
+- **`src/Home.css`**: Stylesheet for the home page.
+- **`public/images/`**: Contains image assets used in the application.
+
+## Usage
+1. **Access the home page** to get started.
+2. **Navigate to the resume editor** to input your resume details and choose a style.
+3. **Preview your resume** to see how it looks.
+4. **Download your resume** in PDF format.
+
+## Contributors
+- [Kanchana Karunarathna](https://github.com/Kanch-prog/resume) - Frontend Developer
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 # Getting Started with Create React App
 
